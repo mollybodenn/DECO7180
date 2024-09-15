@@ -17,10 +17,6 @@ body {
     line-height: 1.6;
 }
 
-section {
-    margin-top: 100px;
-}
-
 /* BASE */
 :root {
     --black: #000000;
@@ -193,12 +189,6 @@ footer form button {
     font-size: 14px;
     cursor: pointer;
     text-align: center;
-}
-
-/* MAP */
-#map {
-    height: calc(100vh - 200px); /* Adjust based on header/footer height */
-    width: 100%;
 }
 
 /* RESPONSIVENESS */

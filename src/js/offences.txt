@@ -5,6 +5,7 @@ Some of these appear to be a sum of others. For example, "Drug Offences" tallies
 "Trafficking Drugs", "Possess Drugs", "Produce Drugs", "Sell Supply Drugs",
 and "Other Drug Offences".
 
+ALL UNIQUE CATEGORIES:
 "Homicide (Murder)",
 "Other Homicide",
 "Attempted Murder",
@@ -93,4 +94,16 @@ and "Other Drug Offences".
 "Disqualified Driving",
 "Interfere with Mechanism of Motor Vehicle",
 "Miscellaneous Offences",
+"Other Offences"
+
+CATEGORIES THAT MIGHT BE OF INTEREST:
+"Assault",
+"Sexual Offences",
+"Unlawful Entry",
+"Vehicles (steal from/enter with intent)",
+"Other Stealing",
+"Offences Against Property",
+"Drug Offences",
+"Public Nuisance",
+"Drink Driving",
 "Other Offences"

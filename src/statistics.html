@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/statisticsStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;700&display=swap" rel="stylesheet">
+    <!-- source: https://www.chartjs.org/ -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="wrapper">
+            <nav>
+                <div class="logo">Balance</div>
+
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+
+                    <li>
+                        <a href="statistics.html">STATISTICS</a>
+                    </li>
+
+                    <li>
+                      <a href="founders.html">FOUNDERS</a>
+                    </li>
+
+                    <li>
+                        <a href="map.html" class="btn">CRIME HEATMAP</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End of destktop navigation menu-->
+
+            <nav class="mobile-nav">
+                <div class="logo">Balance</div>
+                <div class="menu-icon">
+                    <img src="media/icons8-menu-94.png" alt="">
+                </div>
+            </nav>
+
+            <div class="mobile-menu-container">
+                <div class="close-icon">
+                    <img src="media/icons8-close-48.png" alt="">
+                </div>
+
+                <ul>
+                  <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+
+                    <li>
+                        <a href="statistics.html">STATISTICS</a>
+                    </li>
+
+                    <li>
+                      <a href="founders.html">FOUNDERS</a>
+                    </li>
+
+                    <li>
+                        <a href="map.html" class="btn">CRIME HEATMAP</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- End of mobile navigation menu-->
+
+            <div class="hero-section">
+                <div class="left">
+                    <h1>
+                        REJECT THE <BR>CHAOS <BR>RECLAIM YOUR <BR>BALANCE
+                    </h1>
+
+                    <!-- End of left hand side-->
+                </div>
+
+                <div class="right">
+                    <img src="media/max-vs-PjCh5goo-unsplash.jpg" alt="Person Doing Meditation Pose" />
+                    <figcaption>https://unsplash.com/photos/vs-PjCh5goo?utm_source=unsplash&utm_medium=referral&utm_c
+                        ontent=creditCopyText</figcaption>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- End of header section-->
+
+        <div class="wrapper">
+            <label for="suburb">Suburb (Brisbane if blank): </label>
+            <input type="text" id="suburb" placeholder="Enter suburb">
+            
+            <label for="startDate">Start Date (JUN01 if blank): </label>
+            <input type="text" id="startDate" placeholder="Start Date">
+            
+            <label for="endDate">End Date (JUL21 if blank): </label>
+            <input type="text" id="endDate" placeholder="End Date">
+
+            <div id="checkboxContainer"></div>
+            
+            <button id="submitBtn" class="btn">Search</button>
+            <canvas id="offencesChart" width="400" height="200"></canvas>
+        </div>
+        <script src="js/statistics.js"></script>
+
+    <!-- End of breif section-->
+
+    <footer>
+        <div class="wrap">
+            <div class="links-container">
+                <div class="links">
+                    <ul>
+                        <li>
+                        <a href="#">CONTACT US</a>
+                        </li>
+                        <li>
+                            <a href="#">PRIVACY POLICY</a>
+                        </li>
+
+                        <li>
+                            <a href="#">TERMS AND CONDITIONS</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button class="submit-btn">Subscribe</button>
+                </form>
+
+            </div>
+            <h2 class="end-copy">READY TO FIND YOUR BALANCE?</h2>
+        </div>
+    </footer>
+        <!-- End of footer section-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
